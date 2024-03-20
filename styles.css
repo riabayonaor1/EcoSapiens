@@ -140,6 +140,7 @@ body {
 .social-handle {
   font-style: italic;
 }
+
 @media screen and (max-width: 600px) {
   body {
     font-size: 14px;
@@ -154,5 +155,15 @@ body {
     margin: 0 auto;
     padding: 10px 0;
   }
+
+  .video-placeholder {
+    padding-top: 56.25%; /* Mantiene la proporción de aspecto 16:9 */
+    min-height: 200px; /* Altura mínima para pantallas pequeñas */
+  }
+
+  .video-placeholder iframe {
+    height: 100%; /* Asegúrate de que el iframe llene el contenedor */
+  }
 }
+
 
