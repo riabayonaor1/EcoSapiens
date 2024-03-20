@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu Blog</title>
+<link rel="stylesheet" href="styles.css">
+<script src="carbon-calculator.js"></script>
+</head>
+<body>
+
+    <div class="blog-post">
+        <div class="post-header">
+            <h1>EcoSapiens</h1>
+            <span class="post-number">Ricardo Bayona</span>
+        </div>
+    
+        <div class="content-wrapper"> <!-- Contenedor de la cuadrícula -->
+            <div class="video-placeholder">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tgIN8tPOHsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h2 class="post-title">¿Cómo el cuidado del medio ambiente contribuye a la economía sostenible
+                de un país?</h2>
+        </div>
+
+        <div class="subtitulo-contenido">
+
+            <h2 class="post-subtitle">INNOVACIÓN Y SOSTENIBILIDAD: PILARES DE UNA ECONOMÍA VERDE</h2>
+
+        </div>
+    
+        <div class="contenido">
+            <p class="post-excerpt">La relación entre el cuidado del medio ambiente y la economía sostenible de un país es un tema que despierta debates intensos y opiniones diversas. Según investigaciones, no es necesario sacrificar el crecimiento económico para proteger el medio ambiente. Al contrario, la sostenibilidad ambiental puede conducir a un desarrollo económico más fuerte y duradero. Por ejemplo, la implementación de tecnologías limpias y la gestión sostenible de recursos naturales pueden generar empleos, impulsar la innovación y abrir nuevos mercados, todo mientras se reduce la dependencia de recursos no renovables y se minimiza el impacto ambiental. Esto refuta la noción de que debe existir un compromiso entre crecimiento económico y protección ambiental, mostrando que ambas metas pueden avanzar de la mano.
+            </p>
+
+            <p class="post-excerpt">Explorar cómo el cuidado del medio ambiente impulsa la economía sostenible de un país nos lleva a descubrir que la protección ambiental y el crecimiento económico no son objetivos mutuamente excluyentes. De hecho, la inversión en sostenibilidad ambiental puede ser un motor potente para el desarrollo económico. Tecnologías limpias, energías renovables y prácticas sostenibles no solo protegen nuestros recursos naturales y reducen el impacto negativo en el planeta, sino que también generan empleo, estimulan la innovación y promueven nuevos sectores económicos. Este enfoque sostenible puede ofrecer un camino hacia un futuro económico más resiliente y próspero, desmitificando la idea de que la protección ambiental es un lastre para el progreso económico. </p>
+            <a href="#" class="read-more-link">read more on blog</a>
+        </div>
+        
+        <div class="genialy">
+            <h3 class="sub-genialy">Presentación multimedia</h3>
+            <p class="contenido">Puedes ver e interactuar con la presentación multimedia creada en Genially sobre el tema trabajado.</p>
+            
+            <div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="PRESENTACIÓN MULTIMEDIA HERRAMIENTAS DIGITALES Y DIDÁCTICA RICARDO A" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/65e47cacb5a3e80014517fe8" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+        
+        </div>
+
+        <div id="carbon-footprint-calculator">
+            <h2 class="simuladorc">Simulador de Huella de Carbono</h2>
+            <p class="contenido">Esta sección te invita a explorar y calcular tu huella de carbono personal. Mediante un breve cuestionario sobre tus hábitos diarios, como el transporte, el consumo de energía en el hogar y tus prácticas de consumo, podrás obtener una estimación de tu impacto en el medio ambiente. Además, recibirás consejos personalizados para reducir tu huella y contribuir positivamente hacia una economía más sostenible y respetuosa con nuestro planeta.</p>
+            
+            <form id="calculator-form">
+                <label for="transport">Medio de transporte:</label>
+                <select id="transport" name="transport">
+                    <option value="car">Coche</option>
+                    <option value="publicTransport">Transporte público</option>
+                    <option value="bike">Bicicleta</option>
+                    <option value="walk">A pie</option>
+                </select>
+                <br>
+        
+                <label for="energy-consumption">Consumo de energía en el hogar al mes (kWh):</label>
+                <input type="number" id="energy-consumption" name="energy-consumption" min="0">
+                <br>
+        
+                <label for="consumption-habits">Hábitos de consumo relacionados con el medio ambiente:</label>
+                <select id="consumption-habits" name="consumption-habits">
+                    <option value="low">Bajo</option>
+                    <option value="average">Medio</option>
+                    <option value="high">Alto</option>
+                </select>
+                <br>
+        
+                <button type="submit">Calcular Huella</button>
+            </form>
+            <div id="results"></div>
+        </div>
+        
+
+        <div class="post-footer">
+            <p class="social-handle">@reallygreatsite</p>
+        </div>
+    </div>
+    
+
+</body>
+</html>

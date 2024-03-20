@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;400;700;1000&display=swap');
+
+.post-title {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Este es el peso de la fuente: puede ser desde 400 (normal) hasta 900 (más grueso) */
+  font-style: normal;
+  color: #4C3026;
+  font-size: clamp(2rem, 8vw, 40px);
+  margin: 0; /* Se elimina cualquier margen por defecto */
+  padding: 0; /* Se elimina cualquier padding por defecto */
+  grid-column: 2; /* Posiciona el título en la segunda columna de la cuadrícula */
+}
+
+.post-subtitle {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Este es el peso de la fuente: puede ser desde 400 (normal) hasta 900 (más grueso) */
+  font-style: normal;
+  color: #4C3026;
+  font-size: clamp(1rem, 6vw, 20px);
+  text-align: center;
+
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+}
+
+.blog-post {
+  width: calc(100vw - 40px); /* Restar 40px para el padding */
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px; /* Espacio extra si es necesario */
+}
+
+.post-header {
+  display: flex; /* Habilita Flexbox */
+  justify-content: space-between; /* Alinea los elementos a ambos extremos del contenedor */
+  align-items: center; /* Centra los elementos verticalmente */
+  margin-bottom: 20px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #4C3026;
+}
+
+.post-number {
+  font-size: 12px;
+  color: #666;
+  margin-left: auto; /* Esto empujará el post-number a la derecha */
+}
+
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+  gap: 20px; /* Espacio entre las columnas */
+  align-items: center; /* Centrar los items verticalmente */
+  margin-bottom: 20px; /* Margen inferior para separar de contenido siguiente */
+  font-size: 24px;
+}
+
+.video-placeholder {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Proporción de aspecto de 16:9 */
+  overflow: hidden;
+}
+
+.video-placeholder iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contenido {
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Puedes ajustar esto a cualquier valor entre 100 y 1000 que hayas importado */
+  font-style: normal;
+  color: #605654;
+}
+
+.read-more-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.sub-genialy {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Este es el peso de la fuente: puede ser desde 400 (normal) hasta 900 (más grueso) */
+  font-style: normal;
+  color: #4C3026;
+  font-size: clamp(1rem, 6vw, 24px);
+}
+
+.simuladorc {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Este es el peso de la fuente: puede ser desde 400 (normal) hasta 900 (más grueso) */
+  font-style: normal;
+  color: #4C3026;
+  font-size: clamp(1rem, 6vw, 24px);
+}
+
+#calculator-form {
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Este es el peso de la fuente: puede ser desde 400 (normal) hasta 900 (más grueso) */
+  font-style: normal;
+  color: #4C3026;
+  font-size: clamp(1rem, 6vw, 12px);
+
+}
+
+.post-footer {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  text-align: center;
+  color: #777;
+}
+
+.social-handle {
+  font-style: italic;
+}
