@@ -140,3 +140,19 @@ body {
 .social-handle {
   font-style: italic;
 }
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .content-wrapper {
+    display: block;
+  }
+
+  .video-placeholder, .post-title, .post-subtitle {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+}
+
